@@ -9,7 +9,8 @@
 
 a = input("type a number: ")
 b = input("type another number: ")
-c = int(a) + int(b)
+# c = int(a) + int(b)
+c = float(a) + float(b)
 if c > 10 :
     print("more than 10")
 elif c < 10 :
